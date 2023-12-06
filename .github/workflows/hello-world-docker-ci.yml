@@ -1,9 +1,9 @@
 name: Run my action
 on:
-   push:
-     branches: [main]
-     paths: ["hello-world-docker-action/**"]
-   workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: [ hello-world-docker-action/** ]
+  workflow_dispatch:
 
 jobs:
   build:
